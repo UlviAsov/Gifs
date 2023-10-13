@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(76,138,236);
+    background: linear-gradient(135deg, rgba(76,138,236,1) 0%, rgba(36,38,74,1) 0%, rgba(79,40,187,1) 67%, rgba(140,23,212,1) 100%);
+}
+#tags{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+#tags .tag{
+    cursor: pointer;
+    color: #fff;
+    background-color: #025b86;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#stickers{
+    width: 50%;
+}
+#addTag .input-fluid{
+    display: flex;
+}
+#addTag .input-fluid #addInput{
+    font-weight: 100;
+    font-size: 18px;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-right: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #311432;
+    color: #fff;
+}
+::placeholder{
+    font-size: 15px;
+    color: #fff;
+}
+#addTag .input-fluid button{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    height: 50px;
+    padding: 0 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6f2da8;
+    border-left: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#gifs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#gifs img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
